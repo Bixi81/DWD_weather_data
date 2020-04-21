@@ -2,7 +2,7 @@
 
 *Last update: 21 April 2020*
 
-R scripts to download (open) weather data for Germany from Deutschwer Wetterdienst (DWD). 
+R scripts to download (open) weather data for Germany from [Deutscher Wetterdienst (DWD)](https://www.dwd.de/EN/Home/home_node.html). 
 
 **1. Data**
 
