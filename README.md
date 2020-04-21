@@ -22,5 +22,5 @@ At this stage, each data frame contains rbinded raw data as provided by DWD in *
 
 |STATIONS_ID|MESS_DATUM|QN_8|V_N_I| V_N|eor|
 | --- | --- | --- | --- | --- | --- | 
-        |430|2018101900|    3|   P|   7|eor|
-        |430|2018101901|    3|   P|   7|eor|
+|430|2018101900|    3|   P|   7|eor|
+|430|2018101901|    3|   P|   7|eor|
