@@ -1,6 +1,6 @@
 # Download German weather data from Deutschwer Wetterdienst (DWD) using R
 
-*Last update: 21 April 2020* :koala:
+:koala: *Last update: 21 April 2020* 
 
 ---
 
@@ -22,7 +22,7 @@ Please note DWD's policy regarding open data usage: https://www.dwd.de/EN/servic
 
 **2.1 Download Data**
 
-:exclamation: Find the R-script to download data [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_download_data.R).
+:bangbang: Find the R-script to download data [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_download_data.R).
 
 DWD data can be accessed online: https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/. Data is ordered by i) type of measure and ii) measuring station (as zip file). Each zip file contains actual data (txt) and several files containing metadata.
 
