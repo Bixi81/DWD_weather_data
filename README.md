@@ -51,6 +51,7 @@ Find the R-script to merge actual weather data and stations metadata [here](http
 As a result, there will be one data frame per type of measure, including station meta data in each row.
 
 |STATIONS_ID| column_label| MESS_DATUM | QN_9 |TT_TU| RF_TU |eor |  mtype.x |name |      mtype.y |stationskennung |  lat |  lon |height |flussgebiet |state |start | end|  
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1  |        44  |         19 |2018101703 |    3 | 11.5 |   97 |eor |  TU  |    Großenkne~ |EB  |    01510  |          52.9 | 8.24 |    44  |    564030| NI |   01.01~ |16.0~|
 | 2 |         71  |         14 |2018101703 |    3 |  7.6 |   85 |eor |  TU  |    Albstadt-~ |EB  |    02928  |          48.2 | 8.98 |   759  |    710390| BW |   01.07~ |31.1~|
 |...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|
