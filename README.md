@@ -18,10 +18,14 @@ DWD data can be accessed online: https://opendata.dwd.de/climate_environment/CDC
 
 In order to programmatically download (recent) weatherdata, all available files for selected type of measures are downloaded to a temporary filder, are unzipped, stored in a list of data frames and later aggregated to a single data frame.
 
-At this stage, each data frame contains rbinded raw data as provided by DWD in *.txt files with name "product_...txt".
+At this stage, each data frame contains rbinded raw data as provided by DWD in * .txt files with name "product_...txt" in each of the [zip files found in the archives](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/cloudiness/recent/).
 
 |STATIONS_ID|MESS_DATUM|QN_8|V_N_I| V_N|eor|
 | --- | --- | --- | --- | --- | --- | 
 |430|2018101900|    3|   P|   7|eor|
 |430|2018101901|    3|   P|   7|eor|
 |...|...|...|...|...|...|
+
+- STATIONS_ID is the ID of the respective [measuring station](https://www.dwd.de/DE/leistungen/klimadatendeutschland/statliste/statlex_html.html?view=nasPublication&nn=16102).
+- MESS_DATUM is the date/time. Note that the date format is yyyymmddhhmm. 
+- For remaining data, please refer to the respective metadata.
