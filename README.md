@@ -4,6 +4,8 @@
 
 R scripts to download (open) weather data for Germany from [Deutscher Wetterdienst (DWD)](https://www.dwd.de/EN/Home/home_node.html). 
 
+![dwd_logo](dwd_logo.png)
+
 **1. Data**
 
 Deutscher Wetterdienst (DWD) provides [data open source](https://www.dwd.de/DE/leistungen/opendata/hilfe.html). However, there is no off-the-shelf API to download data in bulk to my best knowledge.
