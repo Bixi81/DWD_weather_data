@@ -4,7 +4,7 @@
 
 ---
 
-:shipit: Basic R-scripts to download (open) weather data for Germany from [Deutscher Wetterdienst (DWD)](https://www.dwd.de/EN/Home/home_node.html). 
+:question: Basic R-scripts to download (open) weather data for Germany from [Deutscher Wetterdienst (DWD)](https://www.dwd.de/EN/Home/home_node.html). 
 
 ![dwd_logo](dwd_logo.png)
 
