@@ -1,4 +1,4 @@
-# Download German weather data from Deutschwer Wetterdienst (DWD) using R
+# Download German weather data from Deutscher Wetterdienst (DWD) using R
 
 :koala: *Last update: 21 April 2020* 
 
