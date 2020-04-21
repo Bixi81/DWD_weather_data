@@ -8,7 +8,7 @@ R scripts to download (open) weather data for Germany from [Deutscher Wetterdien
 
 Deutscher Wetterdienst (DWD) provides [data open source](https://www.dwd.de/DE/leistungen/opendata/hilfe.html). However, there is no off the shelf API to download data to my best knowledge.
 
-The following R scripts provide a very basic crawler to download "recent" weather data from DWD's archive.
+The following R scripts provide a very basic crawler to download "recent" hourly weather data from DWD's archive.
 
 Please note DWD's policy regarding open data usage: https://www.dwd.de/EN/service/copyright/templates_dwd_as_source.html.
 
@@ -46,7 +46,7 @@ In order to identify the location of each measurement, data collected in 2.1 wil
 
 **2.3 Merge Weather Data and Metadata**
 
-Find the R-script to merge actual weather data and stations metadata [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
+Find the R-script to merge actual weather data and stations metadata [here].(https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
 
 As a result, there will be one data frame per type of measure, including station meta data in each row.
 
@@ -56,6 +56,12 @@ As a result, there will be one data frame per type of measure, including station
 |    71  |         14 |2018101703 |    3 |  7.6 |   85 |eor |  TU  |    Albstadt-~ |EB  |    02928  |          48.2 | 8.98 |   759  |    710390| BW |   01.07~ |31.1~|
 |...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|...|
 
+**3.Notes**
 
+Please note that the resulting data frames are relatively long (approx. between 6 million and 12 million rows, dependent on type of measure). 
+
+Metadata are merged to each row which inflates the size of data frames. In case internal memory is an issue, alternative ways of linking metadata and actual weather observations may be required. 
+
+When saved locally, final data frames require between 1.7 and 0.3 gigabyte or 6.2 gigabyte for all selected measures.  
 
 
