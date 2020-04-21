@@ -12,7 +12,11 @@ The following R scripts provide a very basic crawler to download "recent" weathe
 
 Please note DWD's policy regarding open data usage: https://www.dwd.de/EN/service/copyright/templates_dwd_as_source.html.
 
-**2. R Scripts**
+**2. R-Scripts**
+
+**2.1 Download Data**
+
+Find the R-script to download data [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_download_data.R).
 
 DWD data can be accessed online: https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/. Data is ordered by i) type of measure and ii) measuring station (as zip file). Each zip file contains actual data (txt) and several files containing metadata.
 
@@ -29,3 +33,21 @@ At this stage, each data frame contains rbinded raw data as provided by DWD in *
 - STATIONS_ID is the ID of the respective [measuring station](https://www.dwd.de/DE/leistungen/klimadatendeutschland/statliste/statlex_html.html?view=nasPublication&nn=16102).
 - MESS_DATUM is the date/time. Note that the date format is yyyymmddhhmm. 
 - For remaining data, please refer to the respective metadata.
+
+Data downloaded from the DWD page will be stored temporarily in some local directory (name and location can be provided) and are deleted after downloading and rbinding data has been finished. 
+
+**2.2 Retrieve Metadata:**
+
+Find the R-script to download metadata [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
+
+Find metadata as CSV (as of 21 April 2020) [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_metadata.csv).
+
+In order to identify the location of each measurement, data collected in 2.1 will be merged with [station metadata](https://www.dwd.de/DE/leistungen/klimadatendeutschland/statliste/statlex_html.html?view=nasPublication&nn=16102). 
+
+**2.3 Merge Weather Data and Metadata**
+
+Find the R-script to merge actual weather data and stations metadata [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
+
+
+
+
