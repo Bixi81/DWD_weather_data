@@ -26,7 +26,7 @@ Find the R-script to download data [here](https://github.com/Bixi81/DWD_weather_
 
 DWD data can be accessed online: https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/. Data is ordered by i) type of measure and ii) measuring station (as zip file). Each zip file contains actual data (txt) and several files containing metadata.
 
-In order to programmatically download (recent) weatherdata, all available files for selected type of measures are downloaded to a temporary filder, are unzipped, stored in a list of data frames and later aggregated to a single data frame.
+In order to programmatically download (recent) weatherdata, all available files for selected types of measures are downloaded to a temporary filder, are unzipped, stored in a list of data frames, and later aggregated to a single data frame.
 
 At this stage, each data frame contains rbinded raw data as provided by DWD in * .txt files with name "product_...txt" in each of the [zip files found in the archives](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/cloudiness/recent/).
 
