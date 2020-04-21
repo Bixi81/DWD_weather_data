@@ -22,7 +22,7 @@ Please note DWD's policy regarding open data usage: https://www.dwd.de/EN/servic
 
 **2.1 Download Data**
 
-:bangbang: Find the R-script to download data [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_download_data.R).
+Find the R-script to download data [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_download_data.R).
 
 DWD data can be accessed online: https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/. Data is ordered by i) type of measure and ii) measuring station (as zip file). Each zip file contains actual data (txt) and several files containing metadata.
 
@@ -44,7 +44,7 @@ Data downloaded from the DWD page will be stored temporarily in some local direc
 
 **2.2 Retrieve Metadata**
 
-:exclamation: Find the R-script to download metadata [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
+Find the R-script to download metadata [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
 
 Find metadata as CSV (as of 21 April 2020) [here](https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_metadata.csv).
 
@@ -52,7 +52,7 @@ In order to identify the location of each measurement, data collected in 2.1 wil
 
 **2.3 Merge Weather Data and Metadata**
 
-:exclamation: Find the R-script to merge actual weather data and stations metadata [here].(https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
+Find the R-script to merge actual weather data and stations metadata [here].(https://github.com/Bixi81/DWD_weather_data/blob/master/dwd_merge_data_metadata.R)
 
 As a result, there will be one data frame per type of measure, including station meta data in each row.
 
