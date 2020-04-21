@@ -2,7 +2,7 @@
 
 *Last update: 21 April 2020*
 
-R scripts to download (open) weather data for Germany from [Deutscher Wetterdienst (DWD)](https://www.dwd.de/EN/Home/home_node.html). 
+Basic R-scripts to download (open) weather data for Germany from [Deutscher Wetterdienst (DWD)](https://www.dwd.de/EN/Home/home_node.html). 
 
 ![dwd_logo](dwd_logo.png)
 
@@ -10,7 +10,7 @@ R scripts to download (open) weather data for Germany from [Deutscher Wetterdien
 
 Deutscher Wetterdienst (DWD) provides [data open source](https://www.dwd.de/DE/leistungen/opendata/hilfe.html). However, there is no off-the-shelf API to download data in bulk to my best knowledge.
 
-The following R-scripts provide a very basic crawler to download "recent" hourly weather data from DWD's archive.
+The following R-scripts provide a very basic crawler to download "recent" hourly weather data from DWD's archive. The scripts are kept on a relatively basic "raw" level so that they can be adapted to other problems regarding data download from DWD.
 
 Please note DWD's policy regarding open data usage: https://www.dwd.de/EN/service/copyright/templates_dwd_as_source.html.
 
