@@ -24,3 +24,4 @@ At this stage, each data frame contains rbinded raw data as provided by DWD in *
 | --- | --- | --- | --- | --- | --- | 
 |430|2018101900|    3|   P|   7|eor|
 |430|2018101901|    3|   P|   7|eor|
+|...|...|...|...|...|...|
